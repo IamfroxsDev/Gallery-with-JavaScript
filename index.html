@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Gallery With JavaScript</title>
+</head>
+
+<body>
+    <!--Some of Text-->
+    <h1>Image Gallery</h1>
+
+    <!--Line for division-->
+    <span class="line"></span>
+
+    <!--This is the Image Preview-->
+    <div class="light-box" id="fullImgBox">
+        <img src="./IMG/image_1.jpg" id="fullImg" alt="">
+        <span onclick="closeImg()">X</span>
+    </div>
+
+    <!--Images of the gallery-->
+    <div class="gallery">
+        <img src="./IMG/image_1.jpg" alt="" onclick="openImg(this.src)">
+        <img src="./IMG/image_2.jpg" alt="" onclick="openImg(this.src)">
+        <img src="./IMG/image_3.jpg" alt="" onclick="openImg(this.src)">
+        <img src="./IMG/image_4.jpg" alt="" onclick="openImg(this.src)">
+        <img src="./IMG/image_5.jpg" alt="" onclick="openImg(this.src)">
+        <img src="./IMG/image_6.jpg" alt="" onclick="openImg(this.src)">
+        <img src="./IMG/image_7.jpg" alt="" onclick="openImg(this.src)">
+        <img src="./IMG/image_8.jpg" alt="" onclick="openImg(this.src)">
+        <img src="./IMG/image_9.jpg" alt="" onclick="openImg(this.src)">
+    </div>
+
+    <!--Line for division-->
+    <span class="line"></span>
+
+    <!--Some of Text-->
+    <h1>With JavaScript</h1>
+    <h3>IamFroxs</h3>
+
+    <!--Scripts References-->
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/e26b4a0375.js" crossorigin="anonymous"></script>
+    
+</body>
+
+</html>
